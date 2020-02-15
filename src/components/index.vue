@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     {{count}}
+    测试
   </div>
 </template>
 
