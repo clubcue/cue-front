@@ -1,0 +1,69 @@
+@one: #468dfb;
+
+/* 内容 */
+body {
+  margin: 0;
+  overflow: hidden;
+  #app {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background: url("../../../static/assets/bg.jpg") no-repeat;
+    background-size: 100% 100%;
+  }
+}
+
+/**
+  * 全局
+  */
+//input 样式
+.el-input__inner {
+  color: white;
+  padding-bottom: 2px;
+  background-color: transparent;
+  border-radius: 0;
+  height: 32px;
+  border: #387add 1px solid;
+}
+//label 样式
+.el-form-item__label {
+  color: #8b9fe6;
+}
+// 按钮样式
+.el-button {
+  color: #fff;
+}
+
+// 滚动条 样式
+::-webkit-scrollbar{
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb{
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  background-color: rgba(73, 142, 255, .5);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track{
+  width: 10px;
+  height: 10px;
+  background-color: rgba(28, 48, 132, .6);
+}
+.el-scrollbar__wrap{
+  overflow: auto;
+}
+
+
+// 词条候选
+.el-autocomplete-suggestion{
+  border: 1px solid #448af0;
+  background-color: #1465c7;
+  li {
+    color: #ffffff;
+  }
+  li:hover {
+    background-color: #448af0;
+  }
+}
