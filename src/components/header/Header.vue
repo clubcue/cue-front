@@ -15,7 +15,7 @@
         </el-submenu>
       </el-submenu>
       <el-menu-item index="3" disabled>关于我们</el-menu-item>
-      <el-menu-item index="4"><a href="https://www.ele.me" target="_blank">登陆</a></el-menu-item>
+      <el-menu-item index="4"><i class="el-icon-user-solid"></i>登陆</el-menu-item>
     </el-menu>
   </div>
 </template>
