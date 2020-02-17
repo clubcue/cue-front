@@ -1,5 +1,5 @@
 <template>
-  <div id='header'>
+  <div class='cue-header'>
     <el-col :offset="4" :span="16">
       <el-menu active-text-color="#F56C6C" text-color="#409EFF" :default-active="activeIndex" class="el-menu-demo" mode="horizontal">
         <el-menu-item index="1">首页</el-menu-item>
@@ -17,8 +17,8 @@
         </el-submenu>
         <el-menu-item index="3">回顾</el-menu-item>
         <el-menu-item index="4">关于我们</el-menu-item>
-        <el-col :offset="1" span="4">
-          <el-input style="margin-top: 10px"/>
+        <el-col :offset="1" :span="4">
+          <el-input style="margin-top: 10px"></el-input>
         </el-col>
         <el-menu-item index="5" style="float: right"><i class="el-icon-user-solid"></i>登陆</el-menu-item>
       </el-menu>
@@ -39,8 +39,9 @@ export default {
 </script>
 
 <style scoped>
-  .header {
-    margin: 0;
-    padding: 0;
+  .cue-header {
+    position:fixed;
+    width:100%;
+    height:auto;
   }
 </style>
