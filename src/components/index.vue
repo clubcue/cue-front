@@ -4,7 +4,9 @@
       <el-header>
         <header-menu />
       </el-header>
-      <el-main>Main</el-main>
+      <el-main>
+        <main-body />
+      </el-main>
       <el-footer>Footer</el-footer>
     </el-container>
   </div>
@@ -12,8 +14,9 @@
 
 <script>
 import HeaderMenu from './header/Header.vue'
+import MainBody from './main/MainBody.vue'
 export default {
-  components: { HeaderMenu },
+  components: { HeaderMenu, MainBody },
   name: 'index',
   data () {
     return {
