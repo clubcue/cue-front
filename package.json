@@ -11,7 +11,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "default-passive-events": "^1.0.10",
     "ele-calendar": "^1.2.0",
     "element-ui": "^2.12.0",
